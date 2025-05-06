@@ -12,3 +12,9 @@ Se replicó la noticia original utilizando HTML5 semántico y CSS3. Se aplicaron
 - `index.html`
 - `assets/reset.css`
 - `assets/style.css`
+
+## Visualización Responsiva
+La página fue adaptada para visualizarse correctamente en distintos dispositivos:
+- **Desktop**: 1025px en adelante
+- **Tablet**: entre 768px y 1024px
+- **Mobile**: menos de 768px
