@@ -101,3 +101,58 @@ body {
     margin-top: 40px;
   }
   
+
+  /* ------------------ MEDIA QUERIES ------------------ */
+
+/* Tablet (entre 768px y 1024px) */
+@media (max-width: 1024px) {
+  body {
+    padding: 15px;
+  }
+
+  .titulo-principal {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .bajada {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .article-body {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+/* Mobile (menos de 768px) */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+  }
+
+  .titulo-principal {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .bajada {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .article-body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  header, main, footer {
+    text-align: left;
+  }
+
+  .breadcrumbs {
+    font-size: 0.8em;
+    flex-wrap: wrap;
+  }
+}
